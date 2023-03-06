@@ -252,7 +252,17 @@ a {
 }
 
 
-.toggle-color {
-    background-color: white;
+.body-background {
+    background: white;
     
+}
+
+.boxes-colors {
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.title-color {
+    color: black;
 }

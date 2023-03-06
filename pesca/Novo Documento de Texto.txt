@@ -1,14 +1,2 @@
 https://mohamed-khaled11.github.io/Social-media-dashboard/
 
-.box-overview {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    background-color: hsl(230, 43%, 24%);
-}
-
-.down-section {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
