@@ -59,6 +59,7 @@ header p {
 
 .btn-dark-mode span {
     color: var(--Desaturated-Blue-text);
+    margin-right: 10px;
 }
 
 main {
@@ -227,7 +228,7 @@ a {
 
 .btn-dark-mode {
     display: flex;
-    gap: 5px;
+    
 }
 
 .space-green {
@@ -235,6 +236,7 @@ a {
     padding: 10px 20px 10px 20px;
     background-color: var(--Lime-Green);
     border-radius: 45%;
+    
 }
 
 .btn {
@@ -245,6 +247,7 @@ a {
     top: 15%;
     left: 6%;
     transition: .6s ease;
+    
 }
 
 .btn-mover {
@@ -282,4 +285,14 @@ a {
         margin-top: 40px;
         margin-left: 20px;        
     }
+
+    .btn-dark-mode {
+        
+        display: flex;
+        
+        
+    }
+
+    
+
 }
