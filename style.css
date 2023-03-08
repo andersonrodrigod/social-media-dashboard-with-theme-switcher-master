@@ -304,12 +304,17 @@ a {
     }
 
     header p {
-        margin-top: 8px;
+        
     }
 
-    .btn-dark-mode {
-        display: flex;
-        justify-content: space-between;
+
+    .box-title-dark-mode {
+        margin-left: 27px; 
+        
+    }
+
+    .space-green {
+        margin-left: 200px;
     }
 
     main {
