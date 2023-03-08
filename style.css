@@ -284,9 +284,11 @@ a {
     }
 
     header {
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;      
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin-left: 50px;
+
     }
 
 
@@ -310,6 +312,7 @@ a {
 
 
 
+    
 
     .upper-section {
         display: flex;
