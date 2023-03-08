@@ -279,18 +279,15 @@ a {
     }
 
     body {
-        width: 100vw;
-        height: 100vh;
-        overflow-x: hidden;
-        
-
+        width: 90vw;
+        height: 100vh;   
     }
 
     header {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100vw;
-        max-width: 320px;
-        margin-left: 30px;
+        margin-left: 0px;  
     }
 
 
@@ -304,17 +301,29 @@ a {
 
     .btn-dark-mode {
         display: flex;
+        flex-direction: row;
+        
         justify-content: space-between;
         margin-top: 30px;
+    }
+
+    .box-title-dark-mode {
+        margin-left: 30px;
+    }
+
+    .space-green {
+        
+        margin-left: 200px;
     }
 
     
 
     main {
+        display: flex;
+        flex-direction: column;
         margin-top: 60px;
         width: 100vw;
         max-width: 320px;
-        margin-left: 30px;
         padding-bottom: 50px;
     }
 
