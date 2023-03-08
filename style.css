@@ -271,26 +271,54 @@ a {
 }
 
 @media only screen and (max-width:550px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     body {
-        display: flex;
-        flex-direction: column;
         width: 100vw;
         height: 100vh;
-
     }
 
     header {
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
-        margin-left: 20px;        
+        margin-left: 40px;      
     }
 
-    .btn-dark-mode {
-        
+
+    .title-1 {
+        font-size: 1.6em;
+    }
+
+    
+
+    main {
+        margin-top: 100px;
+    }
+
+    .Followers-result {
         display: flex;
-        
-        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+    .upper-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down-section {
+        display: flex;
+        flex-direction: column;
     }
 
     
