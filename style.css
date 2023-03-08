@@ -282,6 +282,7 @@ a {
         width: 100vw;
         height: 100vh;
         overflow-x: hidden;
+        
 
     }
 
@@ -313,6 +314,7 @@ a {
         margin-top: 60px;
         max-width: 360px;
         margin-left: 30px;
+        padding-bottom: 50px;
     }
 
     .Followers-result {
@@ -343,6 +345,12 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .box-overview {
+        max-width: 365px;
+        margin-top: 12px;
+         
     }
 
     
