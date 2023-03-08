@@ -286,12 +286,12 @@ a {
     header {
         display: flex;
         flex-direction: column;
-        margin-left: 40px;      
+        margin-left: 10px;      
     }
 
 
     .title-1 {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     
