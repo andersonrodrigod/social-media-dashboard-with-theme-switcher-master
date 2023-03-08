@@ -279,91 +279,79 @@ a {
     }
 
     body {
-        width: 90vw;
-        height: 100vh;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        height: 100%;
+        margin: 0px;
+        padding-bottom: 50px;
+        margin-right: 0px; 
+        
         
     }
 
     header {
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        margin-left: 0px;  
+        justify-content: center;
+        width: 85vw;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-
-
-    .title-1 {
+    
+    header h1 {
         font-size: 1.5em;
     }
 
-    .title p {
-        margin-top: 5px;
+    header p {
+        margin-top: 8px;
     }
 
     .btn-dark-mode {
         display: flex;
-        flex-direction: row;
-        
         justify-content: space-between;
-        margin-top: 30px;
     }
-
-    .box-title-dark-mode {
-        margin-left: 30px;
-    }
-
-    .space-green {
-        
-        margin-left: 200px;
-    }
-
-    
 
     main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 60px;
         width: 85vw;
-        max-width: 320px;
-        padding-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px; 
     }
 
     .Followers-result {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center; 
+        margin-right: 0px; 
     }
-
 
     .box-folowers-result {
-        max-width: 325px;
-        margin-top: 12px;
-        
+        width: 85vw;
     }
-
-    
 
     .upper-section {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        margin-right: 0px; 
+
     }
 
     .down-section {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: center; 
+        margin-right: 0px; 
     }
 
     .box-overview {
-        max-width: 325px;
-        margin-top: 12px;
-         
+        width: 85vw; 
     }
 
+   
     
 
 }
