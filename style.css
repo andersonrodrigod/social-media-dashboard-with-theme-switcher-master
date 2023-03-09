@@ -308,17 +308,20 @@ a {
     }
 
     .btn-dark-mode {
-        width: 100%;
+        
     }
 
 
     .box-title-dark-mode {
         margin-left: 27px; 
+        white-space: nowrap;
         
     }
 
     .space-green {
         margin-left: 200px;
+        white-space: nowrap;
+        
     }
 
     main {
