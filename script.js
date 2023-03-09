@@ -3,6 +3,9 @@ const boxUps = document.querySelectorAll(".box-folowers-result")
 const boxDowns = document.querySelectorAll(".box-overview")
 const body = document.body
 const title = document.querySelectorAll(".title-1")
+const boxGreen = document.querySelector(".space-green")
+
+
 
 
 
@@ -12,6 +15,7 @@ const title = document.querySelectorAll(".title-1")
 btn.addEventListener("click", () => {
     btn.classList.toggle("btn-mover") 
     body.classList.toggle("body-background")
+    boxGreen.classList.toggle("btn-white")
     
     
     boxDowns.forEach(box => {
