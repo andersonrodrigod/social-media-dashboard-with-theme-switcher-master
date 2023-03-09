@@ -295,7 +295,7 @@ a {
         flex-direction: column;
         justify-content: center;
         width: 85vw;
-        margin-left: 13px;
+        margin-left: 14px;
         margin-right: 0px;
     }
     
@@ -308,7 +308,7 @@ a {
     }
 
     .btn-dark-mode {
-        
+        margin-top: 15px;
     }
 
 
