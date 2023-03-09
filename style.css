@@ -315,12 +315,14 @@ a {
     .box-title-dark-mode {
         margin-left: 27px; 
         white-space: nowrap;
+        width: 100%;
         
     }
 
     .space-green {
         margin-left: 200px;
         white-space: nowrap;
+        width: 100%;
         
     }
 
