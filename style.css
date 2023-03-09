@@ -307,6 +307,10 @@ a {
         
     }
 
+    .btn-dark-mode {
+        width: 100%;
+    }
+
 
     .box-title-dark-mode {
         margin-left: 27px; 
